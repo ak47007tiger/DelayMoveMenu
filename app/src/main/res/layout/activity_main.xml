@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#843649"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <widget.TouchDelayMoveLayout
+            android:id="@+id/touchDelayMoveL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/item5"
+                android:text="5"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        <TextView
+                android:id="@+id/item4"
+                android:text="4"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        <TextView
+                android:id="@+id/item3"
+                android:text="3"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        <TextView
+                android:id="@+id/item2"
+                android:text="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+        <TextView
+                android:id="@+id/item1"
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        <TextView
+                android:id="@+id/item0"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg0"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+    </widget.TouchDelayMoveLayout>
+</LinearLayout>
